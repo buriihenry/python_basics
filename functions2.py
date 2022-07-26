@@ -1,4 +1,4 @@
-def student(f_name='Henry', s_name='Burii'):
-    print(f_name, s_name)
+def square_value(num = 2):
 
-student()    
+    return num**2
+print(square_value(2))    

@@ -13,3 +13,12 @@ def multiply (numbers):
         total *=x
     return total
 print(multiply((8,2,3,1,7)))
+
+#solution 3
+def multi(list):
+    total =1
+    for i in list:
+        total *=i
+    return total
+list = [8,2,3,1,7]
+print(multi(list))        

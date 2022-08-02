@@ -19,3 +19,27 @@ class Person: #Class
         print('Hello, My name is:',self.name)
 p= Person('Henry')
 p.say_hi()            
+
+# Class 
+class Dog:
+    animal = 'dog'
+
+    def __init__(self, breed, color):
+        self.breed = breed
+        self.color = color
+Bull = Dog("Pug", "brown")
+Buzo = Dog("Bulldog", "black")
+
+print('Rodger details:')
+print(Bull.animal)
+print(Bull.breed)
+print(Bull.color)
+
+print('\nBuzo details')
+print(Buzo.animal)
+print(Buzo.breed)
+print(Buzo.color)
+
+print(Dog.animal)
+
+# 

@@ -42,7 +42,7 @@ print(Buzo.color)
 
 print(Dog.animal)
 
-# Solution 3
+# Class Solution 3
 class Dog:
     animal = 'dog'
 

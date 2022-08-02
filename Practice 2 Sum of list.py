@@ -21,4 +21,12 @@ def multi(list):
         total *=i
     return total
 list = [8,2,3,1,7]
-print(multi(list))        
+print(multi(list))  
+
+# 
+def test_range(n):
+    if n in range(3,9):
+        print("The number is in the range")
+    else:
+        print("The number is out of range")
+test_range(10)            

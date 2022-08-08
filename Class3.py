@@ -5,3 +5,7 @@ class Vehicle:
 ferrari = Vehicle(260,10000)
 print(ferrari.max_speed)
 print(ferrari.mileage)       
+
+# Class without attributes 
+class Vehicle:
+    pass

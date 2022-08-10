@@ -11,3 +11,9 @@ new_list = [5, 8, 'Tom', 7.50, 'Emma']
 
 for i in new_list:
     print(i)
+
+# Appending 
+new_list= [5, 8, 'Tom', 7.50, 'Emma']
+new_list.insert(1,90)
+print(new_list)
+  

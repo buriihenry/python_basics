@@ -74,3 +74,19 @@ print("The Avreage Marks is:", average_marks)
 
 grade = compute_grade(average_marks)
 print("Your grade is:",grade)
+
+# program to add and multiply two numbers
+def add(x,y):
+	result = x + y
+	return result
+
+sum = add( 2, 8)
+print(sum)
+
+def multiply(x,y):
+	result = x * y
+	return result
+
+multi= multiply( 2, 8)
+print(multi)
+

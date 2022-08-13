@@ -48,3 +48,14 @@ print("Add:",a)
 print("sub:",b)
 print("multi:",c)
 print("division:",d)
+
+# Program to find the average marks
+
+def find_average_marks(marks):
+	sum_of_marks =sum(marks)
+	total_subjects=len(marks)
+	average_marks=sum_of_marks/total_subjects
+	return average_marks
+marks = [80,75,90,64,55]
+average_marks = find_average_marks(marks)
+print("The Avreage Marks is:", average_marks)	

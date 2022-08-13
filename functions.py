@@ -56,6 +56,21 @@ def find_average_marks(marks):
 	total_subjects=len(marks)
 	average_marks=sum_of_marks/total_subjects
 	return average_marks
+# Calculate grade and return it.
+def	compute_grade(average_marks):
+	if average_marks >= 80:
+		grade = 'A'
+	elif average_marks >= 60:
+		grade = 'B'
+	elif average_marks >= 50:
+		grade = 'C'
+	else:
+		grade = 'F'
+	return grade					 
+
 marks = [80,75,90,64,55]
 average_marks = find_average_marks(marks)
 print("The Avreage Marks is:", average_marks)	
+
+grade = compute_grade(average_marks)
+print("Your grade is:",grade)
